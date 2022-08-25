@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(199, 255, 255);
+}
+
+.header {
+    width: 450px;
+    background-color: white;
+    margin-top: 70px;
+}
+
+.header__title {
+    display: flex;
+    background-color: rgb(141, 171, 226);
+    color: white;
+
+}
+
+.header__title ul li {
+    padding-right: 200px;
+}
+
+
+.head__today {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.head__massage_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: rgb(181, 199, 233);
+    margin-bottom: 20px;
+}
+
+
+
+.head__massage_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-left: 120px;
+    background-color: rgba(222, 222, 222, 0.871);
+    margin-bottom: 20px;
+}
+
+.head-text {
+    color: rgba(217, 213, 213, 0.759);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.span::before {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background-color: rgba(217, 213, 213, 0.781);
+}
+
+
+
+.head__massage_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-left: 10px;
+    background-color: rgb(181, 199, 233);
+    margin-bottom: 20px;
+}
+
+
+.clock {
+    color: rgba(71, 67, 67, 0.573);
+    font-size: 14px;
+    margin-left: 12px;
+    opacity: 2;
+}
+
+.head__inner-massage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 172px;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+
+.clock-2 {
+    margin-left: 390px;
+}
+
+.header__form {
+    width: 400px;
+    height: 60px;
+    border-top: 1.5px solid #dedede;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#message {
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 15px;
+    color: rgb(141, 171, 226);
+    padding-left: 155px;
+}
